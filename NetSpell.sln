@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSpell.SpellChecker", "src\NetSpell.SpellChecker\NetSpell.SpellChecker.csproj", "{A426EE0B-E52E-4D74-AF24-06797142D7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSpell.Tests", "src\NetSpell.Tests\NetSpell.Tests.csproj", "{FA92DDBE-81AD-4F8A-9941-300839C15727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSpell.DictionaryBuild", "src\NetSpell.DictionaryBuild\NetSpell.DictionaryBuild.csproj", "{1A1420D4-99BA-4755-9D54-F920BA435D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSpell.WinForm.Test", "src\NetSpell.WinForm.Test\NetSpell.WinForm.Test.csproj", "{953B172F-6026-494E-BD97-111374606CFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{845871F9-8620-4DA5-B6BC-0DADA1D15B98}"
+	ProjectSection(SolutionItems) = preProject
+		src\NetSpell.build = src\NetSpell.build
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A426EE0B-E52E-4D74-AF24-06797142D7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A426EE0B-E52E-4D74-AF24-06797142D7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A426EE0B-E52E-4D74-AF24-06797142D7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A426EE0B-E52E-4D74-AF24-06797142D7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA92DDBE-81AD-4F8A-9941-300839C15727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA92DDBE-81AD-4F8A-9941-300839C15727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA92DDBE-81AD-4F8A-9941-300839C15727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA92DDBE-81AD-4F8A-9941-300839C15727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1420D4-99BA-4755-9D54-F920BA435D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1420D4-99BA-4755-9D54-F920BA435D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1420D4-99BA-4755-9D54-F920BA435D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1420D4-99BA-4755-9D54-F920BA435D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953B172F-6026-494E-BD97-111374606CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953B172F-6026-494E-BD97-111374606CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953B172F-6026-494E-BD97-111374606CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953B172F-6026-494E-BD97-111374606CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06661A73-DEE4-4162-957F-58D552D50A19}
+	EndGlobalSection
+EndGlobal
